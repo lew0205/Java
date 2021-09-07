@@ -1,0 +1,23 @@
+package _9_6;
+
+import java.util.Scanner;
+
+public class factorial {
+
+	public static void main(String[] args) {
+		int result;
+		int n;
+		Scanner in = new Scanner(System.in);
+
+		System.out.println("정수를 키보드로 입력하시오 : ");
+		n = in.nextInt();
+
+		result = 1;
+		while (n > 0) {
+			result*=n;
+			n--;
+		}
+		System.out.println(result);
+	}
+
+}

@@ -1,0 +1,19 @@
+package _9_6;
+
+import java.util.Scanner;
+
+public class Ex_02 {
+	
+	static void Max() {
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		System.out.println(a>b?a:b);
+	}
+	
+	public static void main(String[] args) {
+		Max();
+	}
+}
