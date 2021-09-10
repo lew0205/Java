@@ -1,0 +1,16 @@
+package chapter06;
+
+public class Info1 {
+
+	public static void main(String[] args) {
+		PeopleData d1 = new PeopleData("홍길동",22,'남');
+		System.out.println();
+	}
+
+}
+
+class PeopleData(String name,int age,char gender){
+	this.name=name;
+	this.age=age;
+	this.gender=gender;
+}

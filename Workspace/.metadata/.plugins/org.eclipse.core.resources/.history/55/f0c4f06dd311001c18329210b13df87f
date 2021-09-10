@@ -1,0 +1,22 @@
+package chapter06;
+
+public class Info1 {
+
+	public static void main(String[] args) {
+		PeopleData d1 = new PeopleData();
+		System.out.printf("이름 : %s, 나이 : %d, 성별 : %c\n", d1.name, d1.age, d1.gender);
+	}
+
+}
+
+class PeopleData {
+	String name;
+	int age;
+	char gender;
+
+	PeopleData(String name, int age, char gender) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+}

@@ -6,28 +6,28 @@ class Tv {
 	int channel;
 	final int MAX_VOLUME = 100;
 	final int MIN_VOLUME = 0;
-	
+
 	void turnOnOff() {
 		power = !power;
 	}
-	
+
 	void channelUp() {
 		channel++;
 	}
-	
+
 	void channelDown() {
 		channel--;
 	}
-	
+
 	void volumenUp() {
-		if(volume<MAX_VOLUME)
+		if (volume < MAX_VOLUME)
 			volume++;
 		else
 			System.out.println("더 이상 볼륨을 높일 수 없습니다.");
 	}
-	
+
 	void volumenDown() {
-		if(volume>MIN_VOLUME)
+		if (volume > MIN_VOLUME)
 			volume--;
 		else
 			System.out.println("더 이상 볼륨을 낮출 수 없습니다.");
@@ -44,7 +44,7 @@ public class Tvtest {
 		t.channelDown();
 		t.volumenUp();
 		t.volumenUp();
-		System.out.print("현재 채널은 "+t.channel);
-		System.out.println(", 볼륨은 "+t.volume+"입니다");
+		System.out.print("현재 채널은 " + t.channel);
+		System.out.println(", 볼륨은 " + t.volume + "입니다");
 	}
 }

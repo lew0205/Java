@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;study/src/main/java/AfterClass&apos;" deleteContents="false" description="Delete resource &apos;study/src/main/java/AfterClass&apos;" element1="/study/src/main/java/AfterClass" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1630914547120"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;study/src/main/java/AfterClass&apos;" deleteContents="false" description="Delete resource &apos;study/src/main/java/AfterClass&apos;" element1="/study/src/main/java/AfterClass" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1630914547120"/>&#x0A;<refactoring comment="Delete resource &apos;study/src/main/java/chapter05/study&apos;" deleteContents="false" description="Delete resource &apos;study/src/main/java/chapter05/study&apos;" element1="/study/src/main/java/chapter05/study" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1631060752797"/>
 </session>

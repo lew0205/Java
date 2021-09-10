@@ -1,0 +1,30 @@
+package chapter06;
+
+public class Info1 {
+
+	public static void main(String[] args) {
+		PeopleData d1 = new PeopleData();
+		d1.name="홍길동";
+		d1.age=22;
+		d1.gender='남';
+		
+		PeopleData d2 = new PeopleData("김철수",22,'남');
+		
+		System.out.printf("이름 : %s, 나이 : %d, 성별 : %c\n", d1.name, d1.age, d1.gender);
+		System.out.printf("이름 : %s, 나이 : %d, 성별 : %c\n", d2.name, d2.age, d2.gender);
+	}
+
+}
+
+class PeopleData {
+	String name;
+	int age;
+	char gender;
+
+
+	PeopleData(String name, int age, char gender) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+}
