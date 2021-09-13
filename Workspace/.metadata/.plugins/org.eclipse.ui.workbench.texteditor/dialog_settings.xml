@@ -6,7 +6,7 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="&#x09;&#x09;d1.name = &quot;홍길동&quot;;"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
 			<item value="&#x09;&#x09;d1.name = &quot;홍길동&quot;;"/>
 			<item value="package chapter06;"/>
