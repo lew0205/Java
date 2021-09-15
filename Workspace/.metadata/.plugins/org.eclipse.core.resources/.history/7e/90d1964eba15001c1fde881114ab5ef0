@@ -1,0 +1,30 @@
+package chapter08;
+
+class Printer {
+	private int numOfPapers;
+
+	public void print(int amount) {
+		numOfPapers-=amount;
+	}
+
+	public Printer(int numOfPapers) {
+		if(numOfPapers>this.numOfPapers) {
+			System.out.println((numOfPapers-this.numOfPapers));
+			this.numOfPapers=0;
+		}
+		this.numOfPapers = numOfPapers;
+		System.out.println(this.numOfPapers);
+	}
+
+}
+
+public class PrinterTest {
+
+	public static void main(String[] args) {
+		Printer pr = new Printer(10);
+		pr.print(2);
+		pr.print(20);
+		pr.print(10);
+	}
+
+}
